@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let time=10;
+        if (time >= 0 && time<= 14){
+            alert("Первая четверть")
+        }
+        else if (time >=15 && time <=29) {
+            alert("Вторая четверть")
+        }
+        else if (time >=30 && time <=44){
+            alert("Третья четверть")
+        }
+        else if (time >=45 && time <=59) {
+            alert("Четвертая четверть")
+        }
+    </script>
+    <script>
+       let lang = prompt("Введите язык (ru или by):");
+        let week;
+        switch(lang){
+            case 'ru':
+            week = ['Понедельник','Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+            alert(week);
+            break;
+        
+            case 'by':
+            week = ['Панядзелак', 'Аўторак', 'Серада', 'Четвер', 'Пятніца', 'Субота', 'Нядзеля'];
+            alert(week);
+            break;
+
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let kv = (num) => {
+            let ch = num*num;
+            return ch;
+        }
+        alert(kv(4));
+    </script>
+    <script>
+        let sum =(sl1,sl2) => {
+            let sum = sl1 + sl2;
+            return sum;
+        }
+        alert(sum(2,2));
+    </script>
+    <script>
+        let fc3 = (sl1,sl2,sl3) => {
+            let res = (sl1-sl2)/sl3;
+            return res; 
+        }
+        alert(fc3(4,3,1));
+    </script>
+    <script>
+        let fc4 = (ch) => {
+                switch(ch) {
+
+                    case '1': 
+                    res = 'понедельник';
+                    break;
+
+                    case '2': 
+                    res = 'Вторник';
+                    break;
+
+                    case '3': 
+                    res = 'Среда';
+                    break;
+
+                    case '4': 
+                    res = 'Четверг';
+                    break;
+
+                    case '5': 
+                    res = 'Пятница';
+                    break;
+
+                    case '6': 
+                    res = 'Суббота';
+                    break;
+
+                    case '7': 
+                    res = 'Воскресенье';
+                    break;
+                }
+                return res  
+        }
+        alert(fc4('1'));
+    </script>
+</body>
+</html>
